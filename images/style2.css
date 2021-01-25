@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-style: inherit;
+    font-weight: inherit;  
+}
+body {
+    background-color: #f0f2f5;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #fff;
+    padding: 10px 30px 10px 70px;
+    border-left: none;
+    border-right: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    overflow: hidden;
+    z-index:1;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul .logo{
+    margin-right: 10px;
+    padding-top: 8px;
+}
+nav ul .search{
+    width: 800px;
+    height: 40px;
+    display: flex;
+    background: #f2f2f2;
+    border: 1px ;
+    border-radius: 5px;
+}
+nav ul .search input{
+    width: 900px;
+    height: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px;
+    background-color: #f2f2f2;
+}
+nav ul .search i{
+    padding: 10px;
+    color:#000;
+    
+}
+nav ul .item ul li{
+    font-size: 20px;
+    padding: 10px;
+}
+
+nav ul .item a{
+    color: #3c3c3c;
+    display: flex;
+    align-items: center;
+    font-size: .999rem;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+/* css style2 */
+
+#menu {
+    background-color:rgb(0,52,99);
+    margin-top: 60px;
+    
+    
+}
+#menu .container{
+    padding: 0;
+    width: 1170px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+}
+#menu ul li{
+    padding-top: 15px;
+}
+
+#menu ul li a{
+    text-decoration: none;  
+    padding: 20px;
+    color: #fff;     
+}
+
+
+#menu .contact li a .fa {
+    margin-right: 5px;
+    
+}
+#menu .dropbtn{
+    background-color: rgba(0,0,0,.25);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    transition: all 0.25s;
+}
+#menu .dropdown{
+    position: relative;
+    display: inline-block;
+    margin-top: -15px;
+    z-index: 1;
+}
+#menu .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2);
+    
+}
+#menu .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+#menu .dropdown-content a:hover{
+    background-color:rgb(0,52,99);
+    color: #fff;
+    opacity: .7;
+    
+}
+#menu .dropdown:hover .dropdown-content{
+    display: block;
+}
+#menu .dropbtn:hover{
+    background-color: rgba(0,0,0,0.1);
+    color: #fff;
+}
+
+
+/* css phần contact youtube fb google  */
+
+#product1 .left .contact-product{
+    width: 500px;
+    height:120px;
+}
+#product1 .left .contact-product .title-product h3{
+    font-size: 20px;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: 30px;
+    
+}
+
+#product1 .left .contact-product .contact-mxh a{
+    text-decoration: none;
+    font-size: 18px;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: 20px;
+    
+    color: black;
+}
+#product1 .left  .contact-mxh  .fa{
+    color: blue;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+#product1 .product-other{
+    width: 500px;
+    height: 300px;
+}
+#product1 .product-other .other-title h4{
+    font-size: 20px;
+    padding-top: 15px;
+    font-style: inherit;
+    font-weight: inherit;
+    
+}
+#product1 .product-other .other-name a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: 35px;
+}
+
+/* css phần contact youtube fb google  */
+
+ /* product css */
+
+  /* product1 css new */
+
+  #product1{
+      width: 100%;
+      /*height: 100vh;*/
+     
+  }
+  #product1 .container{
+      margin: 0 auto;
+      width: 1170px;
+      display: flex;
+      
+  }
+  #product1 .left{
+      width: 26%;
+      top: 110px;
+      left: 188px;
+      bottom: 0;
+      position: sticky;
+     
+  }
+  #product1 .left ul li{
+      list-style: none;
+  }
+ 
+  #product1 .left ul li a{
+      color: #000;
+      line-height: 35px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s linear;
+    opacity: 1;
+}
+#product1 .left ul li a:hover{
+    background-color: #444;
+    color: #fff;
+    
+}
+#product1 .left ul li .fa{
+    float: right;
+    padding-top: 5px;
+}
+
+/* css submenu đầu tiên  */
+#product1 .left ul li > .submenu{
+    display: none;
+    text-indent: 10px;
+}
+#product1 .left ul li > .submenu li a{
+    color: rgb(0, 0, 0);
+}
+#product1 .left ul li > .submenu li a:hover{
+    color: #fff;
+    
+}
+
+#product1 .left ul li:hover .submenu{
+    display: block;
+    
+}
+#product1 .left ul li span{
+    font-style: inherit;
+    font-weight: inherit;
+    
+}
+ /* end css submenu đầu tiên  */
+
+/* bắt đầu css submenu2 */
+ 
+#product1 ul .cambien .submenu2{
+    display: none;
+    text-indent: 10px;
+    
+}
+#product1 ul .cambien:hover .submenu2{
+    display: block
+}
+
+/* css submenu3 
+ */
+#product1 ul  .denled .submenu3{
+    display: none;
+    text-indent: 10px;
+}
+#product1 ul  .denled:hover .submenu3{
+    display: block;
+}
+/* end css submenu3 */
+#product1 ul .diencongnghiep .submenu4{
+    display: none;
+    text-indent: 10px;
+}
+#product1 ul .diencongnghiep:hover .submenu4{
+    display: block;
+}
+#product1 ul .clock .submenu5{
+    display: none;
+    text-indent: 10px;
+}
+#product1 ul .clock:hover .submenu5{
+    display: block;
+}
+#product1 ul .mayin3d .submenu6{
+    display: none;
+    text-indent: 10px;
+}
+#product1 ul .mayin3d:hover .submenu6{
+    display: block;
+}
+#product1 ul .module .submenu7{
+    display: none;
+    text-indent: 10px;
+}
+#product1 ul .module:hover .submenu7{
+    display: block;
+}
+#product1 ul .tool .submenu8{
+    display: none;
+    text-indent: 10px;
+}
+#product1 ul .tool:hover .submenu8{
+    display: block;
+}
+#product1 ul .robot .submenu9{
+    display: none;
+    text-indent: 10px;
+}
+#product1 ul .robot:hover .submenu9{
+    display: block;
+}
